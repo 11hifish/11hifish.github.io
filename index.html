@@ -1,1 +1,36 @@
-shulij-15400
+<!DOCTYPE html>
+<html>
+<head>
+    <title>15-400 Research Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+    
+    <div id="header">
+        <div id="nav"><a href="index.html">Home</a></div>
+        <div id="bg"></div>
+    </div>
+    
+    <div id="main-content">
+        <div id="left-column">
+            <div id="my_research">
+            15-400 Spring 2018 Research Project
+            </div>
+            <div class="research_name">
+                <h1>OtterTune: Automatic Database Management System Tuning Through Large-Scale Machine Learning</h1>
+
+                <h2>Shuli Jiang</h2>
+                <h3>Project Information:</h3>
+                <p> Database management system (DBMS) configuration tuning is essential to the performance of database. This is historically a difficult task because DBMSs have hundreds of configuration `knobs` that control everything in the system. However, these knobs are not standardized (i.e., two DBMSs use a different name for the same knob), not independent (i.e., changing one knob can impact others), and not universal (i.e., what works for one application may be sub-optimal for another). Information about the effects of the knobs typically comes only from expensive experiments by DBMS experts.</p>
+                <p>OtterTune is the new tool to overcome these challenges. It would use past experience of tuning knobs and new information to recommend new DBMS configurations. The basic pipeline of OtterTune consists of the following parts: (1) select the most impactful knobs, (2) map unseen database workloads to previous workloads from which we can transfer experience, and (3) recommend knob settings.</p>
+                <p>The OtterTune pipeline at current stage is only a prototype. It is still unclear how to recommend knob settings across different versions of database. It would be interesting to see how to carry past knowledge about tuning knobs for an old version of a database to tuning a new version. </p>
+                
+            </div>
+            
+        </div>
+
+</div>
+
+</body>
+</html>
