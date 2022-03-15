@@ -1,7 +1,7 @@
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url(../images/catbg.jpeg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,8 +23,12 @@ ul,label{
 	margin:0;
 	padding:0;
 }
+a {
+  color: hotpink;
+}
 body a:hover{
-	text-decoration:none;
+	text-decoration:underline;
+	color: red;
 }
 input[type="submit"],ul.address li ul.address-text li a,.agile_about_blog_right_grid a,.agileits_copyright p a,.agileinfo_map_color_grid_left p a,.wthree_tab_content_pos1 ul li a{
 	transition: .5s ease-in;
@@ -33,6 +37,11 @@ input[type="submit"],ul.address li ul.address-text li a,.agile_about_blog_right_
 	-o-transition: .5s ease-in;
 	-ms-transition: .5s ease-in;
 }
+table {
+  border-collapse: collapse;
+  color: #FFF;
+}
+
 .banner_body{
 	padding:3em 0 4em;
 }
@@ -41,7 +50,7 @@ input[type="submit"],ul.address li ul.address-text li a,.agile_about_blog_right_
 }
 .w3ls_logo_nav_left h1 a{
 	font-size:1.5em;
-	color:#000;
+	color:#FFF;
 	text-decoration:none;
 }
 /*-- Tabs --*/
@@ -61,7 +70,7 @@ input[type="submit"],ul.address li ul.address-text li a,.agile_about_blog_right_
 
 .resp-tabs-list {
     list-style: none;
-    text-align: center;
+    text-align: right;
     position: absolute;
     width:65%;
     top: 0;
@@ -81,7 +90,7 @@ input[type="submit"],ul.address li ul.address-text li a,.agile_about_blog_right_
     width: 16%;
     padding:2em 0 0;
     text-transform: uppercase;
-    color: #000;
+    color: #FFF;
     text-align: center;
 }
 
@@ -118,7 +127,7 @@ h2.resp-accordion {
 }
 .wthree_tab_content{
 	position:relative;
-	width: 75%;
+	width: 100%;
     margin: 0 auto;
 }
 .wthree_tab_content_pos1{
@@ -190,12 +199,12 @@ h2.resp-accordion {
 }
 .wthree_tab_content_pos_grid h3 {
     font-size:2em;
-    color: #212121;
+    color: #FFF;
     margin: 0.5em 0 0;
 }
 .wthree_tab_content_pos_grid h6 {
-    font-size: 1em;
-    color: #424242;
+    font-size: 1.2em;
+    color: #FFF;
     margin-top: 0.8em;
 }
 ul.address {
@@ -241,8 +250,9 @@ ul.address li ul.address-text li a:hover{
 /*-- about --*/
 .agile_about,.agileits_agile_about{
 	padding:2em;
-	background:#fff;
-	width: 75%;
+	/*background:#fff;*/
+	color: #FFF;
+	width: 100%;
 }
 .agile_about{
 	position:relative;
@@ -258,7 +268,7 @@ ul.address li ul.address-text li a:hover{
 }
 .agileits_agile_about h3{
 	text-align:center;
-	color:#212121;
+	color:#23D6E7;
 	font-size:2em;
 	position:relative;
 	padding-bottom:.5em;
@@ -915,7 +925,7 @@ ul.address li ul.address-text li a:hover{
 	}
 	.wthree_tab_content {
 		width: 100%;
-		padding-bottom: 21.2em;
+		padding-bottom: 10em;
 	}
 	.wthree_tab_content_pos_grid h3 {
 		font-size: 1.2em;
