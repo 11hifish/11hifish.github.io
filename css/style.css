@@ -274,6 +274,11 @@ ul.address li ul.address-text li a:hover{
 	padding-bottom:.5em;
 	margin-bottom:1.5em;
 }
+.agileits_agile_about h4{
+	color:#23D6E7;
+	font-size:1.4em;
+}
+
 .agileits_agile_about h3:after{
 	content: '';
     position: absolute;
