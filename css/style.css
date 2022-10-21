@@ -202,6 +202,11 @@ h2.resp-accordion {
     color: #FFF;
     margin: 0.5em 0 0;
 }
+.wthree_tab_content_pos_grid h5 {
+    font-size: 1.5em;
+    color: #FFF;
+    margin-top: 1em;
+}
 .wthree_tab_content_pos_grid h6 {
     font-size: 1.2em;
     color: #FFF;
